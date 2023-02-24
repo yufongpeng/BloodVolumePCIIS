@@ -77,7 +77,7 @@ Read multiple raw chromatograms files created by Agilent MassHunter software whi
 Additional information about names is processed by `parse_fn` which should return a `NamedTuple`: `(id = [...], repeat = [...] )`.
 """
 function read_files(files, keywords, parse_fn)
-    id = findall(x -> (endswith(x, ".csv") || endswith(x, ".CSV")) && any(occursin(k, x) for k in keywords), last.(split.(files, "\\")))
+    id = findall(x -> (endswith(x, ".csv") || endswith(x, ".CSV")) && any(occursin(k, x) for k in keywords), basename.(files))
     isempty(id) && throw(ArgumentError("No qualified files"))
     fs = @view files[id]
     tbl = @p fs map(parse_fn) map(Table) append!(__...)

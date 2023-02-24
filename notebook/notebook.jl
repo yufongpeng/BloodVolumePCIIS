@@ -33,7 +33,7 @@ md""" ## Files input"""
 # ╔═╡ 68178f2f-5c6d-44c9-8e02-89e68e2b0ce2
 begin
 	files = isnothing(file_directory) ? readdir(".") : joinpath.(Ref(file_directory), readdir(file_directory))
-	cal = isnothing(calibration_keywords) ? read_calibration(files) : 			 read_calibration(files; keywords = calibration_keywords)
+	cal = isnothing(calibration_keywords) ? read_calibration(files) : read_calibration(files; keywords = calibration_keywords)
 	sample = isnothing(sample_keywords) ? read_sample(files) : read_sample(files; keywords = sample_keywords)
 end
 
