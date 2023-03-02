@@ -8,7 +8,7 @@
 [example-url]: https://github.com/yufongpeng/BloodVolumePCIIS.jl/notebook/notebook.jl.html
 [ci-img]: https://github.com/yufongpeng/BloodVolumePCIIS.jl/workflows/CI/badge.svg
 [ci-url]: https://github.com/yufongpeng/BloodVolumePCIIS.jl/actions
-[codecov-img]: https://codecov.io/gh/yufongpeng/BloodVolumePCIIS.jl/branch/maSTER/graph/badge.svg
+[codecov-img]: https://codecov.io/gh/yufongpeng/BloodVolumePCIIS.jl/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/yufongpeng/BloodVolumePCIIS.jl
 
 This is a simple package for processing post-column infusion internal standard(PCIIS) data on dried blood spot(DBS) sample for volume detection.
