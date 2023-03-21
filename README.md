@@ -5,7 +5,7 @@
 |[![][example-img]][example-url]| [![][ci-img]][ci-url]| [![][codecov-img]][codecov-url]|
 
 [example-img]: https://img.shields.io/badge/docs-examples-brightgreen?logo=julia
-[example-url]: https://github.com/yufongpeng/BloodVolumePCIIS.jl/notebook/notebook.jl.html
+[example-url]: https://yufongpeng.github.io/BloodVolumePCIIS.jl/docs/notebook.jl.html
 [ci-img]: https://github.com/yufongpeng/BloodVolumePCIIS.jl/workflows/CI/badge.svg
 [ci-url]: https://github.com/yufongpeng/BloodVolumePCIIS.jl/actions
 [codecov-img]: https://codecov.io/gh/yufongpeng/BloodVolumePCIIS.jl/branch/master/graph/badge.svg

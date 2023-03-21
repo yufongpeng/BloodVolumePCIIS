@@ -1,7 +1,7 @@
 name = "BloodVolumePCIIS"
 uuid = "946dddda-6a23-4b48-8e71-8e60d9b8d681"
 authors = ["Yu-Fong Peng <sciphypar@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
